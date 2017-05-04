@@ -72,8 +72,8 @@
 			obj.style.top = y + "px";
 
 			if(Math.abs(speedX) < 1) speedX = 0;
-            if(Math.abs(speedY) < 1) speedY = 0;
-            if(speedX == 0 && speedY==0 && obj.offsetTop == maxY) clearInterval(timer);
+			if(Math.abs(speedY) < 1) speedY = 0;
+			if(speedX == 0 && speedY==0 && obj.offsetTop == maxY) clearInterval(timer);
 
 		},30);
 	}
