@@ -26,6 +26,7 @@
 
 		document.onmouseup = function() {
 			document.onmousedown = document.onmousemove = null;
+			clearInterval(timer);
 			box.releaseCapture && box.releaseCapture();
 			ballMove(box);
 		};
